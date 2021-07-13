@@ -1,0 +1,172 @@
+PODS:
+  - Action (4.2.0):
+    - RxCocoa (< 7.0, >= 5.0)
+    - RxSwift (< 7.0, >= 5.0)
+  - Alamofire (5.4.1)
+  - CocoaAsyncSocket (7.6.5)
+  - CollectionKit (2.4.0):
+    - CollectionKit/Core (= 2.4.0)
+  - CollectionKit/Core (2.4.0)
+  - DeviceKit (4.2.1)
+  - Differentiator (4.0.1)
+  - DZNEmptyDataSet (1.8.1)
+  - HMSegmentedControl (1.5.6)
+  - Kingfisher (6.0.1)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - Popover (1.3.0)
+  - RTRootNavigationController (0.7.2):
+    - RTRootNavigationController/Core (= 0.7.2)
+  - RTRootNavigationController/Core (0.7.2)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - RxTheme (4.1.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - SKPhotoBrowser (6.1.0)
+  - SnapKit (5.0.1)
+  - SwiftDate (6.3.1)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftyJSON (5.0.0)
+  - TZImagePickerController (3.5.8)
+  - WMPageController (2.5.2)
+  - XLForm (4.2.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - Action
+  - CocoaAsyncSocket
+  - CollectionKit
+  - DeviceKit
+  - DZNEmptyDataSet
+  - HMSegmentedControl
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh
+  - Moya/RxSwift
+  - Popover
+  - RTRootNavigationController
+  - RxDataSources
+  - RxGesture
+  - RxKeyboard
+  - RxOptional
+  - RxSwiftExt
+  - RxTheme
+  - SKPhotoBrowser
+  - SnapKit
+  - SwiftDate
+  - SwifterSwift/Dispatch
+  - SwifterSwift/Foundation
+  - SwifterSwift/SceneKit
+  - SwifterSwift/UIKit
+  - SwiftyJSON
+  - TZImagePickerController
+  - WMPageController
+  - XLForm
+  - YYText
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Alamofire
+    - CocoaAsyncSocket
+    - CollectionKit
+    - DeviceKit
+    - Differentiator
+    - DZNEmptyDataSet
+    - HMSegmentedControl
+    - Kingfisher
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - Popover
+    - RTRootNavigationController
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxKeyboard
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - RxTheme
+    - SKPhotoBrowser
+    - SnapKit
+    - SwiftDate
+    - SwifterSwift
+    - SwiftyJSON
+    - TZImagePickerController
+    - WMPageController
+    - XLForm
+    - YYText
+
+SPEC CHECKSUMS:
+  Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CollectionKit: 8f01e7629185bb81072c4aa734d105df5c2d1c8b
+  DeviceKit: cadb5ff25d45fe186778bf2d0fd2ea4750542189
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
+  Kingfisher: adde87a4f74f6a3845395769354efff593581740
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Popover: 10e1d9528f81d9504df984b7b3f491292bc1822d
+  RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  RxTheme: 7cda2f036363a0b620cf07b3480cbbbbb00c1d25
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TZImagePickerController: 7fd9702897ef8c0b7c951e5463f4bcf398296f9e
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  XLForm: eb04ea4104f26250b70a72a7fa2eed3748dca5cd
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 76f9047c38c651001a90fbc171f68ede66732d24
+
+COCOAPODS: 1.10.1
