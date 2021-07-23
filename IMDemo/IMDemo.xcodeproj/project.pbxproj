@@ -29,6 +29,10 @@
 		85572F72D0E73966DB440E9E /* ImMessageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85572D3C7AD2C404A7799EF5 /* ImMessageViewLayout.swift */; };
 		A05ED85526736479005DD0A6 /* DefaultTextMessageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05ED85426736479005DD0A6 /* DefaultTextMessageViewLayout.swift */; };
 		A05ED87F26736875005DD0A6 /* TextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05ED87E26736875005DD0A6 /* TextMessageCell.swift */; };
+		A070A8AB269D883200E5F3DA /* BasicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8A9269D883200E5F3DA /* BasicFramework.framework */; };
+		A070A8AC269D883200E5F3DA /* BasicFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8A9269D883200E5F3DA /* BasicFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A070A8AD269D883200E5F3DA /* ListFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8AA269D883200E5F3DA /* ListFramework.framework */; };
+		A070A8AE269D883200E5F3DA /* ListFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8AA269D883200E5F3DA /* ListFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A076C0FC266A2ED7006A32DC /* SocketStatusHandleChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076C0FB266A2ED7006A32DC /* SocketStatusHandleChain.swift */; };
 		A076C109266F5008006A32DC /* ImMessageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076C107266F5008006A32DC /* ImMessageLoader.swift */; };
 		A076C10A266F5008006A32DC /* ImMessageChatLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076C108266F5008006A32DC /* ImMessageChatLayout.swift */; };
@@ -43,22 +47,18 @@
 		A0BBE4B22665E56B0062151B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BBE4B12665E56B0062151B /* SceneDelegate.swift */; };
 		A0BBE4B92665E56D0062151B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BBE4B82665E56D0062151B /* Assets.xcassets */; };
 		A0BBE4BC2665E56D0062151B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BBE4BA2665E56D0062151B /* LaunchScreen.storyboard */; };
-		A0BBE4F0266609420062151B /* BasicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BBE4EE266609420062151B /* BasicFramework.framework */; };
-		A0BBE4F1266609420062151B /* BasicFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0BBE4EE266609420062151B /* BasicFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A0BBE4F2266609420062151B /* ListFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BBE4EF266609420062151B /* ListFramework.framework */; };
-		A0BBE4F3266609420062151B /* ListFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0BBE4EF266609420062151B /* ListFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A0F60787268070250001D6B0 /* DefaultImMessageViewLayoutConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F60786268070250001D6B0 /* DefaultImMessageViewLayoutConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A0BBE4F4266609420062151B /* Embed Frameworks */ = {
+		A070A8AF269D883300E5F3DA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A0BBE4F1266609420062151B /* BasicFramework.framework in Embed Frameworks */,
-				A0BBE4F3266609420062151B /* ListFramework.framework in Embed Frameworks */,
+				A070A8AC269D883200E5F3DA /* BasicFramework.framework in Embed Frameworks */,
+				A070A8AE269D883200E5F3DA /* ListFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +87,8 @@
 		85572F43EFA8C9AEC0DA09B7 /* SocketBehaviours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketBehaviours.swift; sourceTree = "<group>"; };
 		A05ED85426736479005DD0A6 /* DefaultTextMessageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTextMessageViewLayout.swift; sourceTree = "<group>"; };
 		A05ED87E26736875005DD0A6 /* TextMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageCell.swift; sourceTree = "<group>"; };
+		A070A8A9269D883200E5F3DA /* BasicFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BasicFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A070A8AA269D883200E5F3DA /* ListFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ListFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A076C0FB266A2ED7006A32DC /* SocketStatusHandleChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketStatusHandleChain.swift; sourceTree = "<group>"; };
 		A076C107266F5008006A32DC /* ImMessageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImMessageLoader.swift; sourceTree = "<group>"; };
 		A076C108266F5008006A32DC /* ImMessageChatLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImMessageChatLayout.swift; sourceTree = "<group>"; };
@@ -116,9 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BBE4F0266609420062151B /* BasicFramework.framework in Frameworks */,
-				A0BBE4F2266609420062151B /* ListFramework.framework in Frameworks */,
+				A070A8AB269D883200E5F3DA /* BasicFramework.framework in Frameworks */,
 				47D7153785C52316AD84EBEC /* Pods_IMDemo.framework in Frameworks */,
+				A070A8AD269D883200E5F3DA /* ListFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,14 +204,14 @@
 		A0BBE4AE2665E56B0062151B /* IMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A095F16B2671F89300BE21A5 /* DefaultImpl */,
-				A0F0B0152668CA3F008D8543 /* Classes */,
-				855728A18D95A63E9740A239 /* Module */,
-				A0BBE4AF2665E56B0062151B /* AppDelegate.swift */,
-				A0BBE4B12665E56B0062151B /* SceneDelegate.swift */,
+				A0BBE4BD2665E56D0062151B /* Info.plist */,
 				A0BBE4B82665E56D0062151B /* Assets.xcassets */,
 				A0BBE4BA2665E56D0062151B /* LaunchScreen.storyboard */,
-				A0BBE4BD2665E56D0062151B /* Info.plist */,
+				A0BBE4AF2665E56B0062151B /* AppDelegate.swift */,
+				A0BBE4B12665E56B0062151B /* SceneDelegate.swift */,
+				855728A18D95A63E9740A239 /* Module */,
+				A095F16B2671F89300BE21A5 /* DefaultImpl */,
+				A0F0B0152668CA3F008D8543 /* Classes */,
 			);
 			path = IMDemo;
 			sourceTree = "<group>";
@@ -217,6 +219,8 @@
 		A0BBE4ED266609420062151B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A070A8A9269D883200E5F3DA /* BasicFramework.framework */,
+				A070A8AA269D883200E5F3DA /* ListFramework.framework */,
 				A0BBE4EE266609420062151B /* BasicFramework.framework */,
 				A0BBE4EF266609420062151B /* ListFramework.framework */,
 				D00EBAEDF102770F5DA6A6BA /* Pods_IMDemo.framework */,
@@ -266,8 +270,8 @@
 				A0BBE4A82665E56B0062151B /* Sources */,
 				A0BBE4A92665E56B0062151B /* Frameworks */,
 				A0BBE4AA2665E56B0062151B /* Resources */,
-				A0BBE4F4266609420062151B /* Embed Frameworks */,
 				C647194B1CBEE1977A442B59 /* [CP] Embed Pods Frameworks */,
+				A070A8AF269D883300E5F3DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

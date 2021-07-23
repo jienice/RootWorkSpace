@@ -10,7 +10,7 @@ import Foundation
 
 public protocol ViewControllerBehaviours: ViewController {
 
-    func configUI()
+    func setupViews()
 
     func bindViewModel()
 }

@@ -1,4 +1,4 @@
-platform :ios, '14.0'
+platform :ios, '13.0'
 source 'https://cdn.cocoapods.org/'
 
 use_frameworks!
@@ -63,4 +63,20 @@ target 'IMDemo' do
   ui_pods
   basic_pods
   pod 'CocoaAsyncSocket'
+end
+
+target 'FrameworkDemo' do
+  project 'FrameworkDemo/FrameworkDemo.xcodeproj'
+  ui_pods
+  basic_pods
+end
+
+
+# https://stackoverflow.com/questions/54704207/the-ios-simulator-deployment-targets-is-set-to-7-0-but-the-range-of-supported-d
+post_install do |installer|
+ installer.pods_project.targets.each do |target|
+  target.build_configurations.each do |config|
+   config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+  end
+ end
 end

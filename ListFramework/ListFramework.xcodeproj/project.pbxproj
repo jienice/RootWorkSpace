@@ -46,20 +46,20 @@
 		85572F2DD149560F94FB288E /* PhotoBrowsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557278B01191886FBF8AAA3 /* PhotoBrowsable.swift */; };
 		85572FDBE4443E6CE62BFF2F /* MoyaErrorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557257C2B2B7194B3CB543E /* MoyaErrorAdapter.swift */; };
 		85572FEEC289BAE482ECE6E5 /* ThemeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85572A8CF26AA42D333F8227 /* ThemeConfiguration.swift */; };
+		A070A8A6269D882200E5F3DA /* BasicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8A5269D882200E5F3DA /* BasicFramework.framework */; };
+		A070A8A7269D882200E5F3DA /* BasicFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8A5269D882200E5F3DA /* BasicFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A076C110266F660E006A32DC /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076C10F266F660E006A32DC /* UIScrollView+Rx.swift */; };
 		A0BBE2C5265FF52A0062151B /* ListFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BBE2C3265FF52A0062151B /* ListFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0BBE43026629BB80062151B /* BasicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BBE42A26629B840062151B /* BasicFramework.framework */; };
-		A0BBE43126629BB80062151B /* BasicFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0BBE42A26629B840062151B /* BasicFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A0BBE43226629BB80062151B /* Embed Frameworks */ = {
+		A070A8A8269D882200E5F3DA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A0BBE43126629BB80062151B /* BasicFramework.framework in Embed Frameworks */,
+				A070A8A7269D882200E5F3DA /* BasicFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +107,7 @@
 		85572D0CF6AAB9CCA307B69F /* ErrorHandleSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandleSupport.swift; sourceTree = "<group>"; };
 		85572E151D787F2F5BC252DE /* UISwitch+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Rx.swift"; sourceTree = "<group>"; };
 		85572EC6F6FDEF62137FC93D /* DeviceAuthorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceAuthorize.swift; sourceTree = "<group>"; };
+		A070A8A5269D882200E5F3DA /* BasicFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BasicFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A076C10F266F660E006A32DC /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
 		A0BBE2C0265FF52A0062151B /* ListFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BBE2C3265FF52A0062151B /* ListFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListFramework.h; sourceTree = "<group>"; };
@@ -120,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BBE43026629BB80062151B /* BasicFramework.framework in Frameworks */,
+				A070A8A6269D882200E5F3DA /* BasicFramework.framework in Frameworks */,
 				516F3A5B8106987B53181983 /* Pods_ListFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +262,7 @@
 		DA78E9E358D5F05C84519FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A070A8A5269D882200E5F3DA /* BasicFramework.framework */,
 				A0BBE42A26629B840062151B /* BasicFramework.framework */,
 				74A66B2CD929951840E7C373 /* Pods_ListFramework.framework */,
 			);
@@ -300,7 +302,7 @@
 				A0BBE2BC265FF52A0062151B /* Sources */,
 				A0BBE2BD265FF52A0062151B /* Frameworks */,
 				A0BBE2BE265FF52A0062151B /* Resources */,
-				A0BBE43226629BB80062151B /* Embed Frameworks */,
+				A070A8A8269D882200E5F3DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -479,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -537,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

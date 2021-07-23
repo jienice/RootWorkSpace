@@ -47,7 +47,11 @@ public extension XLFormRowDescriptor {
         cellConfig["selectionStyle"] = UITableViewCell.SelectionStyle.none.rawValue
         cellConfig["accessoryView"] = configuration.accessoryView?.template
         cellConfig["accessoryView.tintColor"] = configuration.color.primary
-        cellConfig["datePicker.preferredDatePickerStyle"] = UIDatePickerStyle.wheels.rawValue
+        if #available(iOS 13.4, *) {
+            cellConfig["datePicker.preferredDatePickerStyle"] = UIDatePickerStyle.wheels.rawValue
+        } else {
+            // Fallback on earlier versions
+        }
     }
     
     func typeSelectorCellConfig<C: FormThemeConfiguration>(title: String, noValueDisplayText: String? = nil, configuration: C.Type) {

@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0023200BD99124AEEBD253E7 /* Pods_BasicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45007C1611EA108C91B50052 /* Pods_BasicFramework.framework */; };
-		A070A806269D7E3200E5F3DA /* BasicFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A070A804269D7E3200E5F3DA /* BasicFramework.h */; };
-		A070A807269D7E3200E5F3DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A070A805269D7E3200E5F3DA /* Info.plist */; };
 		A070A821269D7E4300E5F3DA /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A80A269D7E4300E5F3DA /* UserDefault.swift */; };
 		A070A822269D7E4300E5F3DA /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A80B269D7E4300E5F3DA /* JSONMappable.swift */; };
 		A070A823269D7E4300E5F3DA /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A80C269D7E4300E5F3DA /* Runtime.swift */; };
@@ -30,6 +28,8 @@
 		A070A832269D7E4300E5F3DA /* Object+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A81E269D7E4300E5F3DA /* Object+Rx.swift */; };
 		A070A833269D7E4300E5F3DA /* Kingfisher+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A81F269D7E4300E5F3DA /* Kingfisher+Rx.swift */; };
 		A070A834269D7E4300E5F3DA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A820269D7E4300E5F3DA /* Configuration.swift */; };
+		A070A8B1269D88A000E5F3DA /* BasicFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A070A804269D7E3200E5F3DA /* BasicFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07B697C26A1365A007D8396 /* PlistValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B697B26A1365A007D8396 /* PlistValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +58,7 @@
 		A070A81E269D7E4300E5F3DA /* Object+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Object+Rx.swift"; sourceTree = "<group>"; };
 		A070A81F269D7E4300E5F3DA /* Kingfisher+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Kingfisher+Rx.swift"; sourceTree = "<group>"; };
 		A070A820269D7E4300E5F3DA /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A07B697B26A1365A007D8396 /* PlistValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistValue.swift; sourceTree = "<group>"; };
 		D82FF0CC61685B1CA7FCAC07 /* Pods-BasicFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.release.xcconfig"; path = "Target Support Files/Pods-BasicFramework/Pods-BasicFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +123,7 @@
 		A070A809269D7E4300E5F3DA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A07B697B26A1365A007D8396 /* PlistValue.swift */,
 				A070A80F269D7E4300E5F3DA /* Compound.swift */,
 				A070A820269D7E4300E5F3DA /* Configuration.swift */,
 				A070A80E269D7E4300E5F3DA /* FrameworkSettable.swift */,
@@ -177,7 +179,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A070A806269D7E3200E5F3DA /* BasicFramework.h in Headers */,
+				A070A8B1269D88A000E5F3DA /* BasicFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +241,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A070A807269D7E3200E5F3DA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +278,7 @@
 			files = (
 				A070A830269D7E4300E5F3DA /* ErrorEmittable.swift in Sources */,
 				A070A821269D7E4300E5F3DA /* UserDefault.swift in Sources */,
+				A07B697C26A1365A007D8396 /* PlistValue.swift in Sources */,
 				A070A82A269D7E4300E5F3DA /* Action+Extensions.swift in Sources */,
 				A070A823269D7E4300E5F3DA /* Runtime.swift in Sources */,
 				A070A832269D7E4300E5F3DA /* Object+Rx.swift in Sources */,
@@ -353,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -411,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.BasicFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xingjie.BasicFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

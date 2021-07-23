@@ -40,7 +40,7 @@ class ChatViewController: ViewController, ViewControllerBehaviours {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configUI()
+        setupViews()
         bindViewModel()
     }
     
@@ -58,7 +58,7 @@ class ChatViewController: ViewController, ViewControllerBehaviours {
             }).disposed(by: rx.disposeBag)
     }
     
-    func configUI() {
+    func setupViews() {
         configCollection()
         view.backgroundColor = DefaultThemeConfiguration.color.background
         title = "chat"

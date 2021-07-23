@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SwiftCodingGuidelines.playground">
+      location = "group:Templates/Templates.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:FrameworkDemo/FrameworkDemo.xcodeproj">
