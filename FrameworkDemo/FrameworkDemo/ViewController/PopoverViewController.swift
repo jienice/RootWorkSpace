@@ -9,11 +9,23 @@
 import UIKit
 import ListFramework
 
-class PopoverViewController: ViewController {
+class PopoverViewController: ViewController, ViewControllerBehaviours {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViews()
+        bindViewModel()
     }
     
+    func bindViewModel() {
+        
+    }
 
+}
+
+extension PopoverViewController {
+    
+    func setupViews() {
+        view.backgroundColor = .white
+    }
 }

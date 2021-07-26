@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0023200BD99124AEEBD253E7 /* Pods_BasicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45007C1611EA108C91B50052 /* Pods_BasicFramework.framework */; };
+		A033B67E26AC843F006710DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A033B67D26AC843D006710DF /* README.md */; };
 		A070A821269D7E4300E5F3DA /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A80A269D7E4300E5F3DA /* UserDefault.swift */; };
 		A070A822269D7E4300E5F3DA /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A80B269D7E4300E5F3DA /* JSONMappable.swift */; };
 		A070A823269D7E4300E5F3DA /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070A80C269D7E4300E5F3DA /* Runtime.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		2A99D027C512286684DEDA73 /* Pods-BasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.debug.xcconfig"; path = "Target Support Files/Pods-BasicFramework/Pods-BasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		45007C1611EA108C91B50052 /* Pods_BasicFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A033B67D26AC843D006710DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A070A7F7269D7E1700E5F3DA /* BasicFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A070A804269D7E3200E5F3DA /* BasicFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicFramework.h; sourceTree = "<group>"; };
 		A070A805269D7E3200E5F3DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,9 +115,10 @@
 		A070A803269D7E3200E5F3DA /* BasicFramework */ = {
 			isa = PBXGroup;
 			children = (
-				A070A809269D7E4300E5F3DA /* Classes */,
-				A070A804269D7E3200E5F3DA /* BasicFramework.h */,
+				A033B67D26AC843D006710DF /* README.md */,
 				A070A805269D7E3200E5F3DA /* Info.plist */,
+				A070A804269D7E3200E5F3DA /* BasicFramework.h */,
+				A070A809269D7E4300E5F3DA /* Classes */,
 			);
 			path = BasicFramework;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A033B67E26AC843F006710DF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,9 +9,23 @@
 import Foundation
 import ListFramework
 
-class RecordViewController: ViewController {
+class RecordViewController: ViewController, ViewControllerBehaviours {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViews()
+        bindViewModel()
+    }
+    
+    func bindViewModel() {
+        
+    }
+}
+
+
+extension RecordViewController {
+    
+    func setupViews() {
+        view.backgroundColor = .white
     }
 }

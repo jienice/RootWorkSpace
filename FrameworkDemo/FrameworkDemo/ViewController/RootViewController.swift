@@ -14,16 +14,25 @@ import RxCocoa
 
 class RootViewController: ViewController, ViewControllerBehaviours {
     
-    @PlistValue<String>(key: "name", resource: "info")
+    @PlistValue<String>(key: "name")
     var name
 
     enum RowType {
         case popover
+        case record
+        case list
+        case error
 
         var text: String {
             switch self {
             case .popover:
                 return "Popover"
+            case .record:
+                return "Record"
+            case .list:
+                return "Table"
+            case .error:
+                return "Error"
             }
         }
     }
@@ -40,11 +49,7 @@ class RootViewController: ViewController, ViewControllerBehaviours {
         super.viewDidLoad()
         setupViews()
         bindViewModel()
-        dataSource.accept([.popover])
-    }
-    
-    func setupViews() {
-        view.addSubviews([table])
+        dataSource.accept([.popover, .record, .list, .error])
     }
     
     func bindViewModel() {
@@ -61,9 +66,24 @@ class RootViewController: ViewController, ViewControllerBehaviours {
                 switch $0 {
                 case .popover:
                     self?.push(to: FrameworkScene.popover)
+                case .record:
+                    self?.push(to: FrameworkScene.record)
+                case .list:
+                    self?.push(to: FrameworkScene.list)
+                default:
+                    fatalError()
                 }
             }).disposed(by: rx.disposeBag)
     }
 
+}
+
+extension RootViewController {
+    
+    func setupViews() {
+        title = "RootViewController"
+        view.addSubviews([table])
+    }
+    
 }
 

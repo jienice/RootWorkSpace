@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A033B68126AC845D006710DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A033B68026AC845D006710DF /* README.md */; };
 		A04DC63826AAB83A00B18C19 /* InstallScript.sh in Resources */ = {isa = PBXBuildFile; fileRef = A04DC63726AAB83A00B18C19 /* InstallScript.sh */; };
 		A04DC69A26AABD8B00B18C19 /* ___FILEBASENAME___ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC64626AABD8A00B18C19 /* ___FILEBASENAME___ViewModel.swift */; };
 		A04DC69F26AABD8B00B18C19 /* ___FILEBASENAME___ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04DC64E26AABD8A00B18C19 /* ___FILEBASENAME___ViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A033B68026AC845D006710DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A04DC63726AAB83A00B18C19 /* InstallScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = InstallScript.sh; sourceTree = "<group>"; };
 		A04DC64626AABD8A00B18C19 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
 		A04DC64E26AABD8A00B18C19 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		A07B695D269EE06E007D8396 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
+				A033B68026AC845D006710DF /* README.md */,
 				A04DC63726AAB83A00B18C19 /* InstallScript.sh */,
 				A07B6967269EE08A007D8396 /* Source */,
 				A07B695E269EE06E007D8396 /* Templates.h */,
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A033B68126AC845D006710DF /* README.md in Resources */,
 				A04DC6A326AABD8B00B18C19 /* TemplateInfo.plist in Resources */,
 				A04DC63826AAB83A00B18C19 /* InstallScript.sh in Resources */,
 			);

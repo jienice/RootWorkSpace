@@ -7,6 +7,7 @@
 
 import Foundation
 import SwifterSwift
+import SwiftyJSON
 
 @propertyWrapper
 public struct PlistValue<Result> {
@@ -23,8 +24,13 @@ public struct PlistValue<Result> {
             guard let fileContent = NSDictionary(contentsOf: URL) as? [String: Any] else {
                 return nil
             }
-            return fileContent[key] as? Result
+            return JSON(fileContent)[key] as? Result
         }
+    }
+    
+    public init(resource: String = "info", key: String) {
+        self.key = key
+        self.resource = resource
     }
 }
 

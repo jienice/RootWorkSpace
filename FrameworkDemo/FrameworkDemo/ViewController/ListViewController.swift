@@ -19,12 +19,16 @@ class ListViewController: ViewController, ViewControllerBehaviours {
         bindViewModel()
     }
     
-    func setupViews() {
-        
-    }
-    
     func bindViewModel() {
         
     }
 }
 
+extension ListViewController {
+    
+
+    func setupViews() {
+        view.addSubviews([table])
+    }
+    
+}

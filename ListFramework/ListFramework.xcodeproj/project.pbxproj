@@ -46,6 +46,7 @@
 		85572F2DD149560F94FB288E /* PhotoBrowsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557278B01191886FBF8AAA3 /* PhotoBrowsable.swift */; };
 		85572FDBE4443E6CE62BFF2F /* MoyaErrorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557257C2B2B7194B3CB543E /* MoyaErrorAdapter.swift */; };
 		85572FEEC289BAE482ECE6E5 /* ThemeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85572A8CF26AA42D333F8227 /* ThemeConfiguration.swift */; };
+		A033B67C26AC8431006710DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A033B67B26AC842D006710DF /* README.md */; };
 		A070A8A6269D882200E5F3DA /* BasicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8A5269D882200E5F3DA /* BasicFramework.framework */; };
 		A070A8A7269D882200E5F3DA /* BasicFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A070A8A5269D882200E5F3DA /* BasicFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A076C110266F660E006A32DC /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076C10F266F660E006A32DC /* UIScrollView+Rx.swift */; };
@@ -107,6 +108,7 @@
 		85572D0CF6AAB9CCA307B69F /* ErrorHandleSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandleSupport.swift; sourceTree = "<group>"; };
 		85572E151D787F2F5BC252DE /* UISwitch+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Rx.swift"; sourceTree = "<group>"; };
 		85572EC6F6FDEF62137FC93D /* DeviceAuthorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceAuthorize.swift; sourceTree = "<group>"; };
+		A033B67B26AC842D006710DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A070A8A5269D882200E5F3DA /* BasicFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BasicFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A076C10F266F660E006A32DC /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
 		A0BBE2C0265FF52A0062151B /* ListFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -252,6 +254,7 @@
 		A0BBE2C2265FF52A0062151B /* ListFramework */ = {
 			isa = PBXGroup;
 			children = (
+				A033B67B26AC842D006710DF /* README.md */,
 				A0BBE2C4265FF52A0062151B /* Info.plist */,
 				A0BBE2C3265FF52A0062151B /* ListFramework.h */,
 				85572F219F6838EFD911554B /* Classes */,
@@ -349,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A033B67C26AC8431006710DF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@ import ListFramework
 enum FrameworkScene: SceneAdapter {
     case popover
     case record
+    case list
     
     func transToScene() -> Scene {
         switch self {
@@ -19,6 +20,8 @@ enum FrameworkScene: SceneAdapter {
             return PopoverViewController()
         case .record:
             return RecordViewController()
+        case .list:
+            return ListViewController()
         }
     }
 }
